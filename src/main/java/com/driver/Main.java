@@ -11,14 +11,14 @@ public class Main {
   System.out.println(resultB);
 }
 class A {
-    String meth() {
+    public String meth() {
         return "Invoking method from class A";
     }
 }
 
 class B extends A {
     @Override
-    String meth() {
+    public String meth() {
         return "Method is overridden in Extended class B";
     }
 }
