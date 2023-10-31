@@ -10,15 +10,3 @@ public class Main {
   String resultB = objB.meth();
   System.out.println(resultB);
 }
-class A {
-    public String meth() {
-        return "Invoking method from class A";
-    }
-}
-
-class B extends A {
-    @Override
-    public String meth() {
-        return "Method is overridden in Extended class B";
-    }
-}
